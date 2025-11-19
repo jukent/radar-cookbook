@@ -3,7 +3,7 @@ channels:
   - conda-forge
   - pyviz
 dependencies:
-  - python<3.12
+  - python
   - jupyter-book
   - jupyterlab
   - matplotlib
@@ -19,6 +19,8 @@ dependencies:
   - datashader
   - panel
   - sphinx-pythia-theme
+  - mystmd
+  - nodejs
   - s3fs>=2024.3.1
   - pip
   - pip:
